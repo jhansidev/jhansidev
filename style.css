@@ -135,6 +135,22 @@ p{
     border-radius: 20px;
 }
 
+.resume{
+    background-color: #fce2ca;
+    align-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+}
+
 @media (min-width: 992px) {
     .mt-lg-5, .my-lg-5 {
         margin-top: 3rem !important;
