@@ -151,6 +151,15 @@ p{
     display: flex;
 }
 
+.card-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: square;
+    list-style-position: inside;
+    color: #555555;
+
+}
+
 @media (min-width: 992px) {
     .mt-lg-5, .my-lg-5 {
         margin-top: 3rem !important;
