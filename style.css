@@ -141,6 +141,12 @@ p{
     margin: 0 auto;
     padding: 20px;
 }
+.projects-section{
+    background-color: #fce2ca;
+    align-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .card{
     margin-top: 20px;
