@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .title
 {
     float: left;
@@ -18,11 +20,14 @@
     font-weight: normal;
 }
 
+
+
 .navbar
 {
     display: flex;
     align-items: center;
     padding: 20px;
+    position: sticky;
 
 }
 nav{
@@ -57,20 +62,25 @@ p{
     color: #555;
 }
 
-/*.container{
+
+.container{
     max-width: 1400px;
     margin: auto;
     padding-left: 0px;
     padding-right: 0px;
 
-} */
+}
+
+main {
+    margin-bottom: 10px;
+}
 
 .left-bg-square{
     position: absolute;
     bottom: auto;
     width: 100%;
     height: 100%;
-    max-height: 70%;
+    max-height: 50%;
     max-width: 45%;
     min-width: 300px;
     background-color: #fce2ca;
@@ -101,14 +111,13 @@ p{
     align-items: center;
     background: #fff5ef;
     width: 40%;
-    height: 50%;
+    height: 40%;
     padding: 5px;
     border-radius: 20px;
     flex-direction: row;
     vertical-align: center;
-    position: fixed;
     left: 400px;
-    bottom: 150px;
+    bottom: 200px;
 }
 
 .card-content{
@@ -120,33 +129,64 @@ p{
     height: 150px;
     border-radius: 60%;
 }
-.footer{
-    position: fixed;
-    height: 50px;
-    bottom: 0px;
+
+
+
+.footer {
+    grid-area: footer;
     display: flex;
-    align-items: center;
-    align-content: space-between;
-    padding: 10px;
+    flex: 1 0 auto;
+    margin-top:10px;
+    margin-bottom: 2px;
+    color: black;
 }
 
-.contact{
-    border: 1px solid teal;
-    border-radius: 20px;
+.foot-profile{
+    display: flex;
+    margin-right: auto;
 }
+
+.foot-profile img{
+    padding:10px;
+}
+
+
+
+.foot-contact {
+    display: flex;
+    align-items: center;
+
+}
+
+.foot-contact p {
+    padding: 0 40px;
+
+}
+
 
 .resume{
     background-color: #fce2ca;
+    width: 100vw;
     align-content: center;
     margin: 0 auto;
     padding: 20px;
 }
+
+.about-section{
+    width: 100vw;
+    align-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .projects-section{
     background-color: #fce2ca;
+    width: 100vw;
     align-content: center;
     margin: 0 auto;
     padding: 20px;
 }
+
 
 .card{
     margin-top: 20px;
@@ -175,8 +215,19 @@ p{
         margin-bottom: 3rem !important;
     }
 
-    article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    .profile__wrapper{
+        position: fixed;
+    }
+
+    article, aside, figcaption, figure, footer, header,main,hgroup,.main, nav, section, card {
         display: block;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .navbar, header,main, .resume, .profile__wrapper,.projects-section,footer, .card,.card-content,.card-body {
+        width: 100%; /* The width is 100%, when the viewport is 1024 or smaller */
     }
 }
 
