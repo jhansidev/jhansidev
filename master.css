@@ -114,10 +114,6 @@ max-width:960px;
     padding:0 1.999rem;
 }
 
-.about-content{
-    font-size: 20px;
-}
-
 ol[class], ul[class] {
     list-style: none;
     padding: 0;
@@ -196,11 +192,38 @@ footer a {
 }
 
 /* for mobiles */
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
     /* For mobile phones: */
     body {
         width: 100%;
-        display: block;
+        align-content: normal;
+        font-size: 1rem;
+
+    }
+     nav ul>li{
+         display: flex;
+         font-weight: 100;
+     }
+     .logo-link{
+         font-size: 1rem;
+     }
+
+     .intro__title{
+         font-size: 2rem;
+     }
+    .about-content>*, .geo-txt{
+         font-size: 1rem;
+        letter-spacing: 1px;
+     }
+     .catagories{
+         font-size: 1.5rem;
+         letter-spacing: 1px;
+     }
+
+    footer, footer *{
+        font-size: 12px;
+        display: inline-block;
+        align-items: center;
     }
 }
 
