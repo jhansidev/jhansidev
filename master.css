@@ -31,8 +31,8 @@ nav{
 }
 
 .main-nav{
-    overflow: hidden;
     position: fixed;
+    overflow: hidden;
     top: 0;
     width: 100%;
    background-color: #242021;
@@ -109,9 +109,9 @@ button, input, select, textarea {
 }
 
 main{
-margin:100px auto 0;
+    margin:100px auto 0;
 max-width:960px;
-    padding:0 1.0875rem;
+    padding:0 1.999rem;
 }
 
 .about-content{
@@ -124,7 +124,7 @@ ol[class], ul[class] {
 }
 
 .tech-stack {
-    column-count: 3;
+    column-count: 2;
 }
 
 .about-content>*, .geo-txt {
@@ -196,10 +196,11 @@ footer a {
 }
 
 /* for mobiles */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
     /* For mobile phones: */
     body {
         width: 100%;
+        display: block;
     }
 }
 
