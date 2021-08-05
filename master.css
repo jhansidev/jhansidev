@@ -9,7 +9,8 @@ body{
     width: 1024px;
     max-width:1140px ;
     font-size: 1rem;
-    background-color: white;
+    background-color: #242021;
+    color: white;
 }
 
 header{
@@ -27,6 +28,14 @@ nav{
     justify-content: space-between;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.main-nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   background-color: #242021;
 }
 
 
@@ -134,9 +143,10 @@ hr {
     display:block;
     height:1px;
     border:0;
-    border-top:1px solid #000000;
+    border-top:1px solid #ffffff;
     margin:1em 0;
     padding:0;
+
 }
 
 footer, footer * {
@@ -184,3 +194,14 @@ footer a {
     font-size: 1.5rem;
     padding-bottom:20px;
 }
+
+/* for mobiles */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+        width: 100%;
+    }
+}
+
+
+
