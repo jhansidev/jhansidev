@@ -208,10 +208,10 @@ footer a {
          font-size: 1rem;
      }
 
-     .intro__title{
+     .intro__title,.blog__author__title{
          font-size: 2rem;
      }
-    .about-content>*, .geo-txt{
+    .about-content>*, .geo-txt,.blog-header p{
          font-size: 1rem;
         letter-spacing: 1px;
      }
@@ -225,6 +225,8 @@ footer a {
         display: inline-block;
         align-items: center;
     }
+
+
 }
 
 
