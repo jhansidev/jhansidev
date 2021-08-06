@@ -114,6 +114,30 @@ max-width:960px;
     padding:0 1.999rem;
 }
 
+ .javascript-txt, .react-txt, .html-txt,.css-txt {
+    background: #14402f;
+    padding: 0 10px 2.5px;
+    margin-right: 1px;
+    transition: padding .3s;
+}
+ .html-txt{
+     color: orange;
+ }
+ .css-txt{
+     color: #bc70a4;
+ }
+.javascript-txt{
+color: #ecdb54;
+}
+.react-txt{
+color: #3de9fc;
+}
+
+.email, .category-head{
+    color: #98fcd2;
+}
+
+
 ol[class], ul[class] {
     list-style: none;
     padding: 0;
