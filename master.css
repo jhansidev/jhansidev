@@ -119,6 +119,7 @@ max-width:960px;
     padding: 0 10px 2.5px;
     margin-right: 1px;
     transition: padding .3s;
+     border-radius: 15px;
 }
  .html-txt{
      color: orange;
